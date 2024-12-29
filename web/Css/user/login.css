@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'montserrat', 'Times New Roman', Times, serif;
+  display: flex;
+  /* justify-content: center;
+  align-items: center;  */
+  background-color: #F4F4F4;
+  overflow: hidden;
+}
+
+.image-section {
+  height: 100vh;
+  aspect-ratio: 0.722 / 1;
+  float: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #e8e8e8;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  /* justify-self: center; */
+  /* float: none;*/
+  overflow: hidden;
+}
+
+.input{
+  width: 100%;
+}
+
+/* .form-input {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+} */
+
+.form-section h1 {
+  font-size: 3.2rem;
+  background-image: linear-gradient(to right, #8174a0, #efb6c7);
+  color: transparent;
+  background-clip: text;
+}
+
+.form-section p {
+  font-size: 1rem;
+  color: #000;
+  margin: 2rem 0;
+}
+
+label{
+  font-size: 1rem;
+  display: block;
+}
+input{
+  display: block;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  background-color: #d9d9d9;
+  border-style: none;
+  border-radius: 15px;
+}
+
+button{
+  background-image: linear-gradient(to right, #8174a0, #efb6c7);
+  display: block;
+  padding: 1rem;
+  margin: 2rem 0;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 15px;
+}
+
+button:hover{
+  background-image: linear-gradient(to left, #8174a0, #efb6c7);
+  cursor: pointer;
+}
+/* .form-section input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-section button {
+  padding: 15px;
+  background: linear-gradient(to right, #A889B5, #F58AA1);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-section button:hover {
+  background: linear-gradient(to right, #F58AA1, #A889B5);
+} */

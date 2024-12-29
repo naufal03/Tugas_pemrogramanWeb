@@ -1,0 +1,122 @@
+body {
+  /* width: 1440px;
+    height: 1059px; */
+  font-family: "montserrat", "Times New Roman", Times, serif;
+  background-color: #e8e8e8;
+  color: #000000;
+  margin: 0;
+  /* font-size: 20px; */
+  /* padding: 7.5vh; */
+}
+
+/* banner */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 70vw;
+  margin: 4.15rem 0;
+  padding: 2.15em;
+  aspect-ratio: 1.68 / 1;
+  border: #ffffff solid 20px;
+  border-radius: 45px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-image: url("../../assets/image/bannercoak.png");
+  background-size: cover;
+  align-items: center;
+}
+.teks-banner {
+  width: 70%;
+  margin: 0;
+  text-align: center;
+  color: #ffffff;
+}
+h1[class="teks-banner"] {
+  /* font-size: 1em; */
+  font-size: 4.8rem;
+  font-weight: 900;
+}
+h4 {
+  font-size: 1.8rem;
+}
+.jadwal-banner-container {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+}
+.jadwal-banner {
+  color: #8174a0;
+  font-weight: bold;
+  font-size: 1.25rem;
+  width: 25%;
+  border-radius: 20px;
+  background-color: #ffd2a0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  align-content: center;
+  padding: 1em;
+}
+
+/* tabel */
+table,
+td,
+th {
+  font-size: 1.25rem;
+  padding: 1em;
+  text-align: center;
+}
+th {
+  background-color: #ffd2a0;
+  color: #8174a0;
+}
+/* Untuk baris ganjil */
+tr:nth-child(odd) {
+  background-color: #d9d9d9;
+}
+
+/* Untuk baris genap */
+tr:nth-child(even) {
+  background-color: #cdcdcd;
+}
+
+.table-container {
+  display: flex;
+  margin-bottom: 2em;
+  justify-content: center;
+}
+
+/* notabene */
+#notabene-container {
+  width: 60%;
+  border-radius: 20px;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  background-color: #a889b5;
+}
+#text-notabene {
+  font-size: 0.9rem;
+  margin: 0 1em;
+  color: #ffffff;
+  font-weight: bold;
+}
+#icon-notabene {
+  margin-left: 1em;
+}
+
+/* cc */
+#copyrights {
+  margin: 4em 0;
+  font-size: 0.7em;
+  color: #4a5568;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.matkul, .dosen{
+  text-align: left;
+}

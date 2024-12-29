@@ -1,0 +1,100 @@
+body {
+  /* width: 1440px;
+    height: 1059px; */
+  font-family: "montserrat", "Times New Roman", Times, serif;
+  background-color: #E8E8E8;
+  color: #000000;
+  margin: 0;
+  /* font-size: 20px; */
+  /* padding: 7.5vh; */
+}
+
+/* header selesai */
+
+/* buat nengahin frame 3 dqn foto kelassssssss*/
+#container-deskripsi {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+/* frame 3 (teks teks welcome dan dibawahnya)*/
+
+.frame3-landing-page-user {
+  margin: 4rem;
+  font-size: 0.8em;
+  display: inline-block;
+  /* width: 37%; */
+  width: 26.75em;
+  align-content: stretch;
+}
+h1 {
+  /* display: block; */
+  margin: 0;
+  font-size: 4em;
+  font-weight: bolder;
+  background-image: linear-gradient(to right, #8174a0, #a889b5);
+  color: transparent;
+  background-clip: text;
+}
+.frame3-landing-page-user hr {
+  height: 0.1em;
+  width: 12em;
+  margin: 1.6em 0;
+  background-image: linear-gradient(to right, #813b8e, #f69b62);
+}
+#more-info {
+  margin: 4em 0;
+  font-size: 0.7em;
+  height: 3em;
+  width: fit-content;
+  background-image: linear-gradient(to right, #8174a0, #a889b5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#more-info a {
+  margin: 1em;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* foto kelas */
+.foto-kelas {
+  display: inline-block;
+  margin: 4rem;
+  height: 25em;
+  border-radius: 15px;
+}
+/* link gundar blukutuk */
+#link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4rem;
+}
+.link-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2em;
+  width: 16em;
+  height: 4em;
+  background-color: #ffd2a0;
+  border-radius: 15px;
+}
+.link-card a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #8174a0;
+}
+
+/* cc-ccan */
+#copyrights {
+  margin: 4em 0;
+  font-size: 0.7em;
+  color: #4a5568;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}

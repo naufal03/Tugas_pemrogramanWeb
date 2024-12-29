@@ -1,0 +1,73 @@
+a{
+    text-decoration: none;
+}
+
+em{
+    font-style: normal;
+    font-weight: bold;
+    color: #8174A0;
+    
+}
+/* dibawah ini untuk header */
+.header{
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #3a3a3a;
+    height: 4.25em;
+    min-height: 50px;
+    /* margin-bottom: 5em;  */
+    background-color: #ffffff;
+    box-shadow: 0 5px 5px rgba(220, 220, 220, 0.9);
+    overflow: hidden;
+    /* centering div VERTICALLY */
+    display: flex;
+    align-items: center;
+    /* kananin konten */
+    justify-content: right;
+}
+
+#logo-gunadarma-header{
+    height: 2em;
+    position: absolute;
+    left: 0;
+    margin-left: 3em;
+}
+
+.menu-header{
+    color: #3a3a3a;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    display: flex;
+}
+
+.menu-header:hover{
+    color: purple;
+}
+
+#tombol-login-header{
+    background-color: #8174A0;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+#tombol-login-header:hover{
+    background-color: purple;
+}
+
+#menu-header-profil a{
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px rgba(220, 220, 220, 0.9);;
+    padding: 0.5em 1em;
+}
+.tipe-profil{
+    display: none;
+    position: absolute;
+    border-style: solid;
+    margin-top: 2.5em;
+}
+
+#menu-header-profil:hover .tipe-profil{
+    display: block;
+}
